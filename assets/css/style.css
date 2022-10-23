@@ -1,0 +1,2131 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    font-family: 'Mulish', sans-serif;
+}
+
+.btn-success{
+    background: #3D473D !important;
+    border-radius: 4px !important; 
+    border-color: transparent !important;
+}
+
+.btn-success.focus, .btn-success:focus{
+    box-shadow: none !important;
+}
+
+.form-control:focus{
+    box-shadow: none !important;
+    border-color: #000 !important; 
+}
+
+/* -------------------------- login page start css -------------------------- */
+.login .login-form{
+    display: flex;
+    align-items: center;
+}
+.overlay-background{
+    background-image: url('./../images/login-background.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 50%;
+    height: calc(100vh - 0px);
+    position: relative;
+}
+
+.overlay-background .form-logo{
+    position: absolute;
+    left:50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.login .login-page-data,
+.login .reset-page-data,
+.login .register-page-data{
+    width: 30%;
+    margin: 0 auto;
+}
+
+.login .reset-page-data .reset-title{
+    font-family: "Mulish";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 30px;
+    color: #0F1E0B;
+    text-align: left;
+    margin-bottom: 35px;
+}
+
+
+.login-form .login-page-data .form-group,
+.login-form .reset-page-data .form-group,
+.login .register-page-data .form-group,
+.login-form .login-page-data .form-group input,
+.login-form .reset-page-data .form-group input,
+.login .register-page-data .form-group input{
+    position: relative;
+}
+
+.login-form .login-page-data .form-group .email-icon,
+.login-form .reset-page-data .form-group .email-icon,
+.login .register-page-data .form-group .email-icon{
+    position: absolute;
+    right: 15px;
+    top: 20px;
+}
+
+.login-form .login-page-data .form-group,
+.login-form .reset-page-data .form-group,
+.login .register-page-data .form-group{
+    margin-bottom: 25px;
+}
+
+.login-form .login-page-data .form-group input::placeholder,
+.login-form .reset-page-data .form-group input::placeholder,
+.login .register-page-data .form-group input::placeholder{
+    border: 0;
+    font-family: "Mulish";
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 23px;
+    color: #0F1E0B;
+    height: 60px;
+}
+
+.login-form .login-page-data .form-group input,
+.login-form .reset-page-data .form-group input,
+.login .register-page-data .form-group input{
+    border: 0;
+    border-bottom: 1px solid #E6E6E6;
+    font-family: "Mulish";
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 23px;
+    color: #000000;
+    height: 60px;
+}
+
+.login-form .login-page-data .form-group a.Forgot-pass{
+    font-family: "Mulish";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 18px;
+    color: #2F80ED;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 0px 2px;
+}
+
+.login-form .login-page-data .form-group .btn-success,
+.login-form .reset-page-data .form-group .btn-success,
+.login .register-page-data .form-group .btn-success{
+    background: #3D473D;
+    border-radius: 4px;     
+    font-family: "Mulish";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 23px;
+    color: #FFFFFF;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 0px 2px;
+    width: 100%;
+    padding: 18px 0px;
+    margin-top: 25px;
+}
+
+.login-form .login-page-data .register-link,
+.login-form .reset-page-data .register-link,
+.login .register-page-data .register-link{
+    padding-top: 20px;
+    text-align: center;
+}
+
+.login-form .login-page-data .register-link a,
+.login-form .reset-page-data .register-link a,
+.login .register-page-data .register-link a{
+    font-family: "Mulish";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 18px;
+    color: #3D473D;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 0px 2px;
+
+}
+
+/* -------------------------- login page end css -------------------------- */
+
+/* ---------------------- setup profile page start css ---------------------- */
+
+.header .container-fluid{
+    padding: 30px 60px;
+}
+
+.profile-section .profile-content{
+    text-align: center;
+}
+
+.profile-section .profile-content .Grow-units-select-fild{
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    flex-wrap: wrap;
+}
+
+.profile-section .profile-content .Grow-units-select-fild .selected-room{
+    margin: 10px 0;
+}
+
+.profile-section .profile-content .profile-title h3{
+    font-family: "Mulish";
+    font-style: normal;
+    font-weight: 900;
+    font-size: 45px;
+    line-height: 56px;
+    color: #0F1E0B;
+    padding-bottom: 30px;
+    margin: 0px;
+}
+
+.profile-section .profile-content .profile-title p{
+    font-family: "Mulish";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 30px;
+    color: #0F1E0B;
+    opacity: 0.4;
+    margin: 0px;
+}
+
+.profile-section .profile-content .Grow-units{
+    padding: 60px 0px 0px;
+}
+
+.profile-section .profile-content .Grow-units h5{
+    font-family: "Mulish";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 30px;
+    color: #0F1E0B;
+    padding-bottom: 48px;
+    margin: 0px;
+}
+
+.profile-section .profile-content .Grow-units input{
+    display: none;
+}
+
+.profile-section .profile-content .Grow-units label{
+    font-family: "Mulish";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 30px;
+    color: #0F1E0B;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 0px 10px;
+    background: #FFFFFF;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    box-sizing: border-box;
+    border-radius: 26.5094px;
+    padding: 12px 30px;
+}
+
+.profile-section .profile-content .Grow-units input:checked + label,
+.profile-section .profile-content .Grow-units input:checked + label:active{
+    background: #3D473D;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    box-sizing: border-box;
+    border-radius: 26.5094px;
+    color: #FFF;
+}
+
+
+.profile-section .btn.btn-success{
+    font-family: "Mulish";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 23px;
+    color: #FFFFFF;
+    padding: 15px 0px;
+    width: 35%;
+    margin: 48px 0px;
+}
+
+.profile-section p.text-body{
+    font-family: "Mulish";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 18px;
+    color: #0F1E0B;
+    opacity: 0.4;
+}
+
+.profile-section .profile-content .custom-input{
+    margin: 40px 0px 0px;
+}
+
+.profile-section .profile-content .custom-input input{
+    background: #FFFFFF;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    box-sizing: border-box;
+    border-radius: 26.5094px;
+    font-family: "Mulish";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 30px;
+    color: #0F1E0B;
+    opacity: 0.8;
+    width: 450px;
+    margin: 0 auto;
+}
+
+.profile-section .profile-content .custom-input input:focus,
+.profile-section .profile-content .Grow-flower input:focus{
+    opacity: 1;
+    color: #000;
+}
+
+.profile-section .profile-content .Grow-flower h5{
+    font-family: "Mulish";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 30px;
+    color: #0F1E0B;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.profile-section .profile-content .Grow-flower input{
+    background: #FFFFFF;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    box-sizing: border-box;
+    border-radius: 26.5094px;
+    font-family: "Mulish";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 30px;
+    text-align: center;
+    color: #0F1E0B;
+    opacity: 0.3;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 0px 10px;
+    width: 300px;
+    margin: 35px auto;
+}
+
+.profile-section .profile-content .profile-details-text{
+    padding-bottom: 80px;
+}
+
+
+
+/* ---------------------- setup profile page end css ---------------------- */
+
+
+/* ---------------------- Main Dashboard page start css --------------------- */
+
+.header #navbarSupportedContent .dropdown .dropdown-menu{
+    background: rgba(255, 255, 255, 0.8);
+    backdrop-filter: blur(30px);
+    box-shadow: 0px 4px 57px rgb(0 0 0 / 8%);
+    text-align: center;
+    margin: 0px;
+    padding: 30px 40px;
+    border: 0;
+    width: 380px;
+}
+
+.header #navbarSupportedContent .dropdown .dropdown-menu:after{
+    content:'';
+    position: absolute;
+    top: 5px;
+    right: 18px;
+    margin-left: -15px;
+    margin-top:-15px;
+    width: 0;
+    z-index:1;
+    height: 0;
+    border-bottom: solid 10px #FFF;
+    border-left: solid 10px transparent;
+    border-right: solid 10px transparent;
+}
+
+.header #navbarSupportedContent .dropdown .dropdown-menu h3{
+    font-family: "Mulish";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 32px;
+    color: #040415;
+    margin: 10px 10px 0px;
+} 
+
+.header #navbarSupportedContent .dropdown .dropdown-menu span{
+    font-family: "Mulish";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 32px;
+    color: #9B9BA1;
+    margin: 10px 10px;
+} 
+
+.header #navbarSupportedContent .dropdown .dropdown-menu .btn-outline-danger{
+    background: #FFFFFF;
+    border: 1px solid #EB5757;
+    box-sizing: border-box;
+    border-radius: 26.5094px;
+    font-family: "Mulish";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 32px;
+    color: #EB5757;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 15px 10px 0px;
+    padding: 8px 25px;
+}
+
+.header #navbarSupportedContent .dropdown .dropdown-menu .btn-outline-primary{
+    background: #FFFFFF;
+    border: 1px solid #2F80ED;
+    box-sizing: border-box;
+    border-radius: 26.5094px;
+    font-family: "Mulish";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 32px;
+    color: #2F80ED;;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 15px 10px 0px;
+    padding: 8px 25px;
+}
+
+.dashboard {
+    display: flex;
+    background-color: #FFF;
+    height: 100vh;
+    width: 100%;
+}
+
+.dashboard .sidebar{
+    background: #FFFFFF;
+    box-shadow: 0px 4px 86px rgba(0, 0, 0, 0.08);
+    padding: 24px;
+    width: 245px;
+    position: fixed;
+    height:100%;
+}
+
+.dashboard .sidebar .title{
+    padding: 20px 0px 48px;
+    text-align: center;
+}
+
+.dashboard .sidebar .menu-items{
+    text-align: left;
+}
+
+.dashboard .sidebar .menu-items .nav-item{
+    text-decoration: none;
+}
+
+.dashboard .sidebar .menu-items .nav-link{
+    padding: 12px 0px;
+}
+
+
+.dashboard .sidebar .menu-items .nav-link span:last-child{
+    padding-left: 10px;
+    font-family: "Mulish";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0.1px;
+    color: #0F1E0B;
+}
+
+.dashboard .sidebar .about-sapienza{
+    position: absolute;
+    bottom: 10px;
+}
+
+.dashboard .sidebar .about-sapienza span{
+    font-family: "Mulish";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 18px;
+    color: #56CCF2;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 0px 2px;
+} 
+
+.sidebar .menu-items .dashboard-data,
+.sidebar .menu-items .Data-input-data,
+.sidebar .menu-items .setting-data{
+    padding: 12px 0px;
+}
+
+.sidebar .menu-items .dashboard-data h3,
+.sidebar .menu-items .Data-input-data h3,
+.sidebar .menu-items .setting-data h3{
+    font-family: "Mulish";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0.1px;
+    text-transform: uppercase;
+    color: #A0A4A8;
+}
+
+.sidebar .menu-items .dashboard-data .sidebar-item,
+.sidebar .menu-items .Data-input-data .sidebar-item,
+.sidebar .menu-items .setting-data .sidebar-item{
+    width: 100%;
+}
+
+.sidebar .menu-items .nav-item.router-link-active .nav-link span{
+    color: #336CFB !important;
+}
+
+.sidebar .menu-items .nav-item.router-link-active .nav-link svg path{
+    fill: #336CFB !important;
+}
+
+.sidebar .menu-items .nav-item.dashboard-batch.router-link-active .nav-link svg path{
+    stroke: #336CFB !important;
+}
+
+
+
+.dashboard .content{
+    position: relative;
+    margin-left: 245px;
+    width: 100%;
+}
+
+.content .nodata-found{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.content .nodata-found img{
+    width: 100%;
+}
+
+.content .nodata-found .found-text{
+    text-align: center;
+    padding-left: 48px;
+}
+
+.content .nodata-found .found-text h3{
+    font-family: "Mulish";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 30px;
+    text-align: center;
+    letter-spacing: 0.1px;
+    color: #0F1E0B;
+    margin: 0px;
+    padding: 0px 0px 28px 0px;
+}
+
+.content .nodata-found .found-text button{
+    font-family: "Mulish";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 24px;
+    color: #2F80ED;
+    border-radius: 4px;
+    background: #E0ECFD;
+    border-color: transparent;
+}
+
+.content .header .navbar{
+    background-color: transparent !important;
+    padding: 48px 48px 0px;
+}
+
+.content .header .navbar a{
+    font-family: "Mulish";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 32px;
+    color: #040415;
+}
+
+.subsrate-content .pagination-blog{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.subsrate-content .pagination-blog .Flowering-button .btn-primary{
+    border-radius: 4px;
+    font-family: "Mulish";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 24px;
+    color: #2F80ED;
+    background-color: #E0ECFD;
+    border-color: transparent !important;
+    padding: 13px 25px;
+    margin: 0px 5px;
+}
+
+.subsrate-content .pagination-blog .Flowering-button .btn-success{
+    border-radius: 4px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 30px;
+    color: #56CCF2;
+    background-color: #E6F8FD !important;
+    border-color: transparent !important;
+    padding: 11px 25px;
+    margin: 0px 5px;
+}
+
+.subsrate-content .pagination-blog .page-item:first-child .page-link{
+    background: #F1F1F1;
+    border: 1px solid #DEDEDE;
+    box-sizing: border-box;
+    border-radius: 5px 0px 0px 5px;
+    font-family: "Mulish";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 24px;
+    color: #7CADEE;
+}
+
+.subsrate-content .pagination-blog .page-item .page-link{
+    font-family: "Mulish";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 24px;
+    color: #666666;
+
+}
+
+.subsrate-content .pagination-blog .page-item:last-child .page-link{
+    background: #FFFFFF;
+    border: 1px solid #DEDEDE;
+    box-sizing: border-box;
+    border-radius: 0px 5px 5px 0px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 24px;
+    color: #7CADEE;
+    font-family: "Mulish";
+}
+
+.subsrate-content .pagination-blog .extra-button{
+    opacity: 0;
+}
+.subsrate-content {
+    padding: 0px 48px 25px;
+}
+
+.subsrate-content .table-responsive{
+    background: #FFFFFF;
+    mix-blend-mode: normal;
+    border: 1px solid rgba(4, 4, 21, 0.08);
+    border-radius: 24px;
+    margin-bottom: 30px;
+}
+
+.subsrate-content .table-responsive tbody tr{
+    cursor: pointer;
+}
+
+.subsrate-content .table-responsive thead tr th{
+    font-family: "Mulish";
+    font-style: normal;
+    font-weight: 800;
+    font-size: 14px;
+    line-height: 24px;
+    color: #9B9BA1;
+    padding: 24px;
+}
+
+.subsrate-content .table-responsive tbody tr td{
+    font-family: "Mulish";
+    font-style: normal;
+    font-weight: 800;
+    font-size: 14px;
+    line-height: 24px;
+    color: #040415;
+    padding: 24px;
+    vertical-align: middle;
+}
+
+.subsrate-content .table-responsive tbody tr.addnewfiled.hide { 
+    visibility: inherit;
+}
+
+
+.subsrate-content .table-responsive tbody tr.addnewfiled{
+    background: rgba(39, 114, 240, 0.08);
+    border-radius: 0px 0px 24px 24px;
+    visibility: collapse;
+}
+
+.subsrate-content .table-responsive tbody tr.addnewfiled input{
+    background: #FFFFFF;
+    font-family: "Mulish";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    color: #C3C3C7;
+    border: 0;
+    padding: 12px;
+}
+
+.subsrate-content .table-responsive tbody tr.addnewfiled input:focus{
+    border-color: transparent;
+}
+
+.subsrate-content .table-responsive .table{
+    border-collapse: collapse;
+    margin-bottom: 0px;
+}
+
+.subsrate-content .search-box{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    padding: 0px 25px 25px 25px;
+}
+
+.subsrate-content .search-box .search-input{
+    position: relative;
+    width: 40%;
+}
+
+.subsrate-content .search-box .search-input input{
+    mix-blend-mode: normal;
+    border: 1px solid #EBEBED;;
+    box-sizing: border-box;
+    border-radius: 100px;
+    font-family: Mulish;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    color: #9B9BA1;;
+    mix-blend-mode: normal;
+    padding: 23px 20px;
+}
+
+.subsrate-content .search-box .search-input input:focus{
+    color: #000;
+}
+
+.subsrate-content .search-box .search-input span{
+    position: absolute;
+    top: 10px;
+    right: 25px;
+}
+
+.select-comparment{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    padding: 10px 48px 48px 48px;
+}
+
+.select-comparment h3{
+    font-family: "Mulish";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 32px;
+    color: #686873;
+}
+
+.select-comparment .nav .nav-item{
+    background: #FFFFFF;
+    border: 0.582251px solid rgba(0, 0, 0, 0.1);
+    box-sizing: border-box;
+    border-radius: 50px;
+    margin: 0px 10px;
+}
+
+.select-comparment .nav .nav-item .nav-link{
+    font-family: "Mulish";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 13.974px;
+    line-height: 18px;
+    color: #0F1E0B;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+
+
+.select-comparment .nav-pills .nav-link.active, .nav-pills .show>.nav-link{
+    background: #3D473D;
+    border: 0.582251px solid rgba(0, 0, 0, 0.1);
+    box-sizing: border-box;
+    border-radius: 15.4351px;
+    font-family: Mulish;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 13.974px;
+    line-height: 18px;
+    color: #FFFFFF;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+#AddnewField .modal-dialog,
+#EditDataField .modal-dialog,
+#DeleteField .modal-dialog,
+#MotherEditDataField .modal-dialog,
+#Subsratetargets .modal-dialog{
+    max-width: 592px;
+}
+
+#AddnewField .modal-content,
+#EditDataField .modal-content,
+#DeleteField .modal-content,
+#MotherEditDataField .modal-content,
+#Subsratetargets .modal-content{
+    background: #FFFFFF;
+    box-shadow: 0px 4px 57px rgba(0, 0, 0, 0.08);
+    border-radius: 36px;
+    padding: 36px;
+}
+
+#AddnewField .modal-header,
+#EditDataField .modal-header,
+#MotherEditDataField .modal-header,
+#Subsratetargets .modal-header{
+    border: 0;
+}
+
+#AddnewField .modal-header h5,
+#EditDataField .modal-header h5,
+#MotherEditDataField .modal-header h5,
+#Subsratetargets .modal-header h5{
+    font-family: "Mulish";
+    font-style: normal;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 24px;
+    color: #040415;
+}
+
+#AddnewField .modal-header span,
+#EditDataField .modal-header span,
+#MotherEditDataField .modal-header span,
+#Subsratetargets .modal-header span{
+    font-family: "Mulish";
+    font-style: normal;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 24px;
+    color: #EB5757;
+    cursor: pointer;
+}
+
+#AddnewField .modal-body .form .form-inline,
+#EditDataField .modal-body .form .form-inline,
+#MotherEditDataField .modal-body .form .form-inline,
+#Subsratetargets .modal-body .form .form-inline{
+    margin: 25px 0px;
+}
+#AddnewField .modal-body .form .form-inline label,
+#EditDataField .modal-body .form .form-inline label,
+#MotherEditDataField .modal-body .form .form-inline label,
+#Subsratetargets .modal-body .form .form-inline label {
+    width: 35%;
+    justify-content: flex-start;
+}
+
+#AddnewField .modal-body .form .form-inline input,
+#EditDataField .modal-body .form .form-inline input,
+#MotherEditDataField .modal-body .form .form-inline input,
+#Subsratetargets .modal-body .form .form-inline input {
+    width: 65%;
+    border-radius: 50px;
+    padding: 0px 20px;
+    font-family: "Mulish";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13.974px;
+    line-height: 18px;
+    color: #0F1E0B;
+
+}
+
+#AddnewField .modal-body,
+#EditDataField .modal-body,
+#MotherEditDataField .modal-body,
+#Subsratetargets .modal-body{
+    padding-bottom: 0;
+    padding-top: 0;
+}
+
+#AddnewField .modal-footer,
+#EditDataField .modal-footer,
+#DeleteField .modal-footer,
+#MotherEditDataField .modal-footer,
+#Subsratetargets .modal-footer{
+    border: 0;
+}
+
+#AddnewField .modal-footer .btn-success,
+#EditDataField .modal-footer .btn-success,
+#MotherEditDataField .modal-footer .btn-success,
+#Subsratetargets .modal-footer .btn-success{
+    background: #3D473D;
+    border-radius: 4px;
+    font-family: "Mulish";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 24px;
+    color: #FFFFFF;
+    padding: 13px 20px;
+    width: 45%;
+    cursor: pointer;
+    border-color: transparent;
+
+}
+
+#EditDataField .modal-footer .btn-danger{
+    background: #FCE6E6;
+    border-radius: 4px;
+    font-family: "Mulish";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 24px;
+    color: #EB5757;;
+    padding: 13px 20px;
+    width: 45%;
+    cursor: pointer;
+    border-color: transparent;
+
+}
+
+
+#DeleteField .modal-body{
+    text-align: center;
+}
+
+#DeleteField .modal-body h3{
+    font-family: "Mulish";
+    font-style: normal;
+    font-weight: 800;
+    font-size: 24px;
+    line-height: 30px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #040415;
+    max-width: 350px;
+    margin: 48px auto 0px;
+}
+
+#DeleteField .modal-footer .btn-danger{
+    background: #EB5757;
+    border-radius: 4px;
+    font-family: "Mulish";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 24px;
+    color: #FFFFFF;
+    padding: 13px 20px;
+    width: 45%;
+    cursor: pointer;
+    border-color: transparent;
+}
+
+#DeleteField .modal-footer .btn-outline-danger{
+    background: #FCE6E6;
+    border-radius: 4px;
+    font-family: "Mulish";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 24px;
+    color: #EB5757;
+    padding: 13px 20px;
+    width: 45%;
+    cursor: pointer;
+    border-color: transparent;
+}
+
+/* .subsrate-content .panel-body .accordian-body thead{
+    visibility: collapse;
+} */
+
+.subsrate-content .panel-body .table{
+    border-collapse: collapse;
+    margin-bottom: 0px;
+}
+
+.subsrate-content .panel-body .accordian-body tbody tr td{
+    border: 0;
+}
+
+.subsrate-content .panel-body .table-striped tbody tr:nth-of-type(odd){
+    background-color: transparent !important;
+}
+
+.subsrate-content .panel-body .accordion-toggle th:nth-child(1),
+.subsrate-content .panel-body .accordion-toggle th:nth-child(2){
+    font-family: "Mulish";
+    font-style: normal;
+    font-weight: 800;
+    font-size: 14px;
+    line-height: 24px;
+    color: #040415;
+    padding: 24px;
+    border: 0;
+    vertical-align: middle;
+    width: 150px;
+}
+
+.subsrate-content .panel-body .accordion-toggle th:nth-child(3),
+.subsrate-content .panel-body .accordion-toggle th:nth-child(4),
+.subsrate-content .panel-body .accordion-toggle th:nth-child(5),
+.subsrate-content .panel-body .accordion-toggle th:nth-child(6),
+.subsrate-content .panel-body .accordion-toggle th:nth-child(7),
+.subsrate-content .panel-body .accordion-toggle th:nth-child(8){
+    font-family: "Mulish";
+    font-style: normal;
+    font-weight: 800;
+    font-size: 14px;
+    line-height: 24px;
+    color: #9B9BA1;
+    padding: 24px;
+    border: 0;
+    vertical-align: middle;
+    width: 150px;
+}
+
+.subsrate-content .panel-body .accordion-toggle th{
+    vertical-align: middle;
+}
+
+
+.subsrate-content .panel-body .accordion-toggle th img.rotate{
+    -moz-transition: all .5s linear;
+    -webkit-transition: all .5s linear;
+    transition: all .5s linear;
+}
+
+.subsrate-content .panel-body .accordion-toggle th img.rotate.down {
+    -moz-transform:rotate(180deg);
+    -webkit-transform:rotate(180deg);
+    transform:rotate(180deg);
+}
+
+.subsrate-content .table-responsive .table tr td.hiddenRow {
+    padding: 0 !important;
+}
+
+.header #navbarSupportedContent .navbar-nav .btn-outline-danger{
+    background: #FFFFFF;
+    border: 1px solid #EB5757;
+    box-sizing: border-box;
+    border-radius: 26.5094px;
+    font-family: "Mulish";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    padding: 8px 25px;
+}
+
+.header #navbarSupportedContent .navbar-nav .btn-outline-danger:hover{
+    color:  #EB5757;
+}
+
+.content .edit-profile-section{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    width: 25%;
+}
+
+.content .edit-profile-section .form .avatar-edit{
+    text-align: center;
+    position: relative;
+    width: 150px;
+    margin: 0 auto 48px;
+}
+
+.content .edit-profile-section .form .avatar-edit img{
+    position: relative;
+}
+
+.content .edit-profile-section .form .avatar-edit a{
+    position: absolute;
+    right: 0px;
+    bottom: 8px;
+}
+
+.content .edit-profile-section .form .form-inline,
+.content .edit-profile-section .form .form-inline input{
+    width: 100%;
+    position: relative;
+    height: 48px;
+    margin-bottom: 30px;
+}
+
+.content .edit-profile-section .form .form-inline input{
+    border: 0;
+    border-bottom: 1px solid #E6E6E6;
+    border-radius: 0;
+    padding-right: 48px;
+}
+
+.content .edit-profile-section .form .form-inline span{
+    position: absolute;
+    right: 15px;
+}
+
+.content .edit-profile-section .form .form-inline .btn-success{
+    background: #3D473D;
+    border-radius: 4px;
+    font-family: "Mulish";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 23px;
+    color: #FFFFFF;
+    width: 100%;
+    padding: 14px 0px;
+    margin: 15px 0px 0px;
+}
+
+.content .edit-profile-section .form .d-flex {
+    padding: 15px 30px;
+}
+
+.content .edit-profile-section .form .d-flex a{
+    font-family: "Mulish";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 18px;
+    color: #2F80ED;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 0px 2px;
+}
+
+#ChangePassword .modal-dialog {
+    max-width: 592px;
+}
+#ChangePassword .modal-content {
+    background: #FFFFFF;
+    box-shadow: 0px 4px 57px rgb(0 0 0 / 8%);
+    border-radius: 36px;
+    padding: 36px;
+}
+#ChangePassword .modal-header {
+    border: 0;
+}
+#ChangePassword .modal-header h5 {
+    font-family: "Mulish";
+    font-style: normal;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 24px;
+    color: #040415;
+}
+#ChangePassword .modal-header span {
+    font-family: "Mulish";
+    font-style: normal;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 24px;
+    color: #EB5757;
+    cursor: pointer;
+}
+#ChangePassword .modal-body {
+    padding-bottom: 0;
+    padding-top: 0;
+}
+#ChangePassword .modal-body .form .form-inline {
+    margin: 25px 0px;
+}
+#ChangePassword .modal-body .form .form-inline label {
+    width: 35%;
+    justify-content: flex-start;
+}
+#ChangePassword .modal-body .form .form-inline input {
+    width: 65%;
+    border-radius: 50px;
+    padding: 0px 20px;
+    font-family: "Mulish";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13.974px;
+    line-height: 18px;
+    color: #0F1E0B;
+}
+#ChangePassword .modal-footer {
+    border: 0;
+}
+#ChangePassword .modal-footer .btn-success {
+    background: #3D473D;
+    border-radius: 4px;
+    font-family: "Mulish";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 24px;
+    color: #FFFFFF;
+    padding: 13px 20px;
+    width: 45%;
+    cursor: pointer;
+    border-color: transparent;
+}
+
+.content .about-section{
+    padding: 18px 48px 0px;
+}
+
+.content .about-section p{
+    font-family: "Mulish"; 
+    font-style: normal; 
+    font-size: 14px;
+    line-height: 32px; 
+    color: #000000;
+    padding: 30px 0px 0px;
+}
+
+.bath-section{
+    padding: 24px 34px;
+}
+
+.bath-section .subsrate-content{
+    padding: 0px;
+}
+
+.bath-section .subsrate-content .select-comparment{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    padding: 0px 0px 24px;
+}
+
+.bath-section .subsrate-content .select-comparment .batch-comparment{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.bath-section .subsrate-content h3{
+    font-family: "Mulish";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 32px;
+    color: #040415;
+    margin: 0;
+}
+
+.bath-section .subsrate-content .select-comparment .batch-comparment .comparment-title p{
+    font-family: "Mulish";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 32px;
+    color: #040415;
+    opacity: 0.6;
+}
+
+.bath-section .subsrate-content .select-comparment .filter a.btn-primary{
+    border-radius: 4px;
+    background: #E0ECFD !important;
+    font-family: "Mulish";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 28px;
+    color: #2F80ED;
+    border-color: transparent;
+}
+
+.bath-section .page-item:first-child .page-link {
+    background: #F1F1F1;
+    border: 1px solid #DEDEDE;
+    box-sizing: border-box;
+    border-radius: 5px 0px 0px 5px;
+    font-family: "Mulish";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 24px;
+    color: #7CADEE;
+}
+
+.bath-section .page-item .page-link {
+    font-family: "Mulish";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 24px;
+    color: #666666;
+}
+
+.bath-section .page-item:last-child .page-link {
+    background: #FFFFFF;
+    border: 1px solid #DEDEDE;
+    box-sizing: border-box;
+    border-radius: 0px 5px 5px 0px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 24px;
+    color: #7CADEE;
+    font-family: "Mulish";
+}
+
+
+.dashboard-section .row .col-12 .dashboard-searchbox{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.dashboard-section .row .col-12 .dashboard-searchbox .comparment-title h3{
+    font-family: "Mulish";
+    font-style: normal;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 28px;
+    color: #040415;
+    margin: 0;
+    padding: 0;
+} 
+
+.dashboard-section .row .col-12 .dashboard-searchbox .comparment-title p{
+    font-family: "Mulish";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    color: #9B9BA1;
+    margin: 0;
+    padding: 0;
+}
+
+.dashboard-section .row .col-12 .dashboard-searchbox .comparment-search{
+    position: relative;
+    width: 50%;
+}
+
+.dashboard-section .row .col-12 .dashboard-searchbox .comparment-search input{
+    position: relative;
+    width: 100%;
+    font-family: "Mulish";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    color: #040415;
+    mix-blend-mode: normal;
+    border-radius: 50px;
+    padding: 20px;
+}
+
+.content .dashboard-section {
+    padding: 48px 48px 0px;
+}
+
+.dashboard-section .row .col-12 .dashboard-searchbox .comparment-search span{
+    position: absolute;
+    right: 20px;
+    top: 6px;
+}
+
+.dashboard-section .row .col-12 .subsrate-content,
+.dashboard-section .row .col-12 .carousel{
+    padding: 28px 0px;
+}
+.dashboard-section .row .col-12 .subsrate-content .accordion-toggle th{
+    font-family: "Mulish";
+    font-style: normal;
+    font-weight: 800;
+    font-size: 14px;
+    line-height: 24px;
+    color: #9B9BA1;
+}
+
+
+.dashboard-section .row .col-12 .subsrate-content .accordion-toggle th.text-primary{
+    font-family: "Mulish";
+    font-style: normal;
+    font-weight: 800;
+    font-size: 14px;
+    line-height: 24px;
+    color: #2F80ED !important;
+}
+
+
+
+.dashboard-section .row .col-12 .subsrate-content .accordion-toggle th.text-dark{
+    font-family: "Mulish";
+    font-style: normal;
+    font-weight: 800;
+    font-size: 14px;
+    line-height: 24px;
+    color: #040415 !important;
+}
+
+.dashboard-section .row .col-12 .subsrate-content .accordion-toggle th.view-graph .btn-outline-light{
+    mix-blend-mode: normal;
+    border: 1px solid #EBEBED;
+    box-sizing: border-box;
+    border-radius: 100px;
+    font-family: "Mulish";
+    font-style: normal;
+    font-weight: 800;
+    font-size: 14px;
+    line-height: 24px;
+    text-align: center;
+    color: #2772F0;
+    padding: 12px 25px;
+}
+
+
+
+.dashboard-section .row .col-12 .subsrate-content .pagination .page-item:first-child .page-link{
+    background: #F1F1F1;
+    border: 1px solid #DEDEDE;
+    box-sizing: border-box;
+    border-radius: 5px 0px 0px 5px;
+    font-family: "Mulish";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 24px;
+    color: #7CADEE;
+}
+
+.dashboard-section .row .col-12 .subsrate-content .pagination .page-item .page-link{
+    font-family: "Mulish";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 24px;
+    color: #666666;
+
+}
+
+.dashboard-section .row .col-12 .subsrate-content .pagination .page-item:last-child .page-link{
+    background: #FFFFFF;
+    border: 1px solid #DEDEDE;
+    box-sizing: border-box;
+    border-radius: 0px 5px 5px 0px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 24px;
+    color: #7CADEE;
+    font-family: "Mulish";
+}
+
+.dashboard-section .row .col-12 .example img{
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    width: 12px;
+}
+
+.dashboard-section .row .col-12 .example{
+    background: #FFFFFF;
+    mix-blend-mode: normal;
+    border: 1px solid rgba(4, 4, 21, 0.08);
+    border-radius: 24px;
+    padding: 24px 24px 0px 24px;
+    margin-bottom: 25px;
+}
+
+.dashboard-section .row .col-12 .example .apexcharts-canvas,
+.dashboard-section .row .col-12 .example .apexcharts-canvas svg{
+    width: 100% !important;
+}
+
+.carousel-control-next-icon, .carousel-control-prev-icon{
+    width: 35px !important;
+    height: 25px !important;
+}
+
+.carousel-control-prev-icon {
+    background-image: url("./../images/left-arrow.svg") !important;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.carousel-control-next-icon{
+    background-image: url("./../images/right-arrow.svg") !important;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.carousel{
+    margin-bottom: 25px;
+}
+
+.carousel-control-next, .carousel-control-prev{
+    height: 35px;
+    bottom: -25px !important;
+    top: auto !important;
+}
+
+
+.dashboard-section .row .col-12 .carousel .d-flex .graph-count{
+    font-family: "Mulish";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 24px;
+    color: #9B9BA1;
+}
+
+.dashboard-section .row .col-12 .carousel .d-flex .graph-name{
+    font-family: "Mulish";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 24px;
+    color: #2F80ED;
+}
+
+.dashboard-section .select-comparment {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    padding: 0px 0px;
+}
+
+.dashboard-section .select-comparment .batch-comparment .comparment-title p {
+    font-family: "Mulish";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 32px;
+    color: #040415;
+    opacity: 0.6;
+}
+
+.dashboard-section .select-comparment .batch-comparment {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.dashboard-section .select-comparment .filter a.btn-primary {
+    border-radius: 4px;
+    background: #E0ECFD !important;
+    font-family: "Mulish";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 28px;
+    color: #2F80ED;
+    border-color: transparent;
+}
+
+.dashboard-section .row .col-12 .edit-row span{
+    font-family: "Mulish";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    color: #9B9BA1;
+}
+
+.dashboard-section .row .col-12 .col-lg-4 .text-danger{
+    font-family: "Mulish";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 28px;
+    color: #EB5757;
+}
+
+.tab-content .panel-body .custom-table tbody tr th{
+    padding: 25px;
+    font-family: "Mulish";
+    font-style: normal;
+    font-weight: 800;
+    font-size: 14px;
+    line-height: 24px;
+    color: #9B9BA1;
+}
+
+.tab-content .panel-body .custom-table tbody tr td{
+    padding: 25px;
+    font-family: "Mulish";
+    font-style: normal;
+    font-weight: 800;
+    font-size: 14px;
+    line-height: 24px;
+    color: #040415;
+}
+
+
+
+.tab-content .panel-body .custom-table tbody tr td [chklist],
+.tab-content .panel-body .custom-table tbody tr td [chklist-all] {
+    display: none;
+    background: #FFFFFF;
+    border: 1px solid #E6E6E6;
+    box-sizing: border-box;
+    border-radius: 3px;
+}
+
+.tab-content .panel-body .custom-table tbody tr td [chklist-all] + label,
+.tab-content .panel-body .custom-table tbody tr td [chklist] + label {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+    background: #FFFFFF;
+    border: 1px solid #E6E6E6;
+    box-sizing: border-box;
+    border-radius: 3px;
+}
+.tab-content .panel-body .custom-table tbody tr td [chklist-all] + label:before,
+.tab-content .panel-body .custom-table tbody tr td [chklist] + label:before {
+    content: "";
+    width: 12px;
+    height: 12px;
+    transform: scale(0);
+    transition: transform 0.1s ease-out;
+    background-color: #0F1E0B;
+    border-radius: 2px;
+}
+
+.tab-content .panel-body .custom-table tbody tr td [chklist-all]:checked + label:before,
+.tab-content .panel-body .custom-table tbody tr td [chklist]:checked + label:before {
+  transform: scale(1);
+}
+
+.dashboard-section .tab-content .row .Food-graph-title{
+    padding-top: 75px;
+}
+.dashboard-section .tab-content .row .Food-graph-title p{
+    font-family: "Mulish";
+    font-style: normal;
+    font-weight: 800;
+    font-size: 14px;
+    line-height: 24px;
+    color: #9B9BA1;
+}
+
+.dashboard-section .tab-content .row .Food-graph-title span{
+    font-family: "Mulish";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 24px;
+    color: #2F80ED;
+}
+
+.dashboard-section .tab-content .row .Food-graph-title h3{
+    font-family: "Mulish";
+    font-style: normal;
+    font-weight: 800;
+    font-size: 14px;
+    line-height: 24px;
+    color: #040415;
+}
+
+.dashboard-section .title-target h3{
+    font-family: "Mulish";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 32px;
+    color: #040415;
+}
+
+.dashboard-section .row .col-12 .filter .dropdown-menu.dropdown-menu-right{
+    background: #FFFFFF;
+    box-shadow: 0px 4px 57px rgba(0, 0, 0, 0.12);
+    border-radius: 36px;
+    width: 750px;
+    height: auto;
+    padding: 25px;
+    border: 0;
+}
+
+.dashboard-section .row .col-12 .filter .dropdown-menu .d-flex h3{
+    font-family: "Mulish";
+    font-style: normal;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 24px;
+    color: #040415;
+}
+
+.dashboard-section .row .col-12 .filter .dropdown-menu .d-flex a.text-danger{
+    font-family: "Mulish";
+    font-style: normal;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 24px;
+    color: #EB5757;
+}
+
+.dashboard-section .row .col-12 .filter .dropdown-menu .form .form-inline label,
+.dashboard-section .row .col-12 .filter .dropdown-menu .form .form-group label{
+    font-family: "Mulish";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 24px;
+    color: #686873;
+    width: 20%;
+    justify-content: start;
+}
+
+.dashboard-section .row .col-12 .filter .dropdown-menu .form .form-inline input{
+    font-family: "Mulish";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13.974px;
+    line-height: 18px;
+    color: #9FA59D;
+    border: 1px solid #E6E6E6;
+    border-radius:50px;
+    width: 80%;
+}
+
+.dashboard-section .row .col-12 .filter .dropdown-menu .form .form-group input{
+    background: #FFFFFF;
+    border: 0.582251px solid rgba(0, 0, 0, 0.1);
+    box-sizing: border-box;
+    border-radius: 50px;
+    margin: 0px 10px;
+    padding: 5px 10px;
+    width: 120px;
+}
+
+.dashboard-section .row .col-12 .filter .dropdown-menu .form .form-inline{
+    margin-bottom: 25px;
+}
+
+.dashboard-section .row .col-12 .filter .dropdown-menu .btn-success{
+    background: #3D473D;
+    border-radius: 4px;
+    font-family: "Mulish";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 24px;
+    color: #FFFFFF;
+    border-color: transparent;
+    width: 160px;
+    height: 48px;
+}
+
+.dashboard-section .row .col-12 .filter .dropdown-menu .btn-danger{
+    background: #FCE6E6;
+    border-radius: 4px;
+    font-family: "Mulish";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 24px;
+    color: #EB5757;
+    border-color: transparent;
+    width: 160px;
+    height: 48px;
+}
+
+/* ---------------------- Main Dashboard page end css --------------------- */
+
+
+
+
+
+@media screen and (max-width:575.98px){
+
+    /* -------------------------- login page start css -------------------------- */
+    .login .login-form{
+        display: block;
+    }
+    .overlay-background{
+        width: 100%;
+        height: calc(100vh - 400px);
+    }
+
+    .overlay-background .form-logo img{
+        width: 100%;
+    }
+    .login .login-page-data,
+    .login .reset-page-data,
+    .login .register-page-data{
+        width: 90%;
+        margin: 30px auto;
+    }
+
+    /* -------------------------- login page end css -------------------------- */
+
+    
+    /* ---------------------- setup profile page start css ---------------------- */
+
+    .header .container-fluid{
+        padding: 5px !important;
+    }
+    .navbar-light .navbar-toggler{
+        border-color: transparent !important;
+    }
+    
+    .navbar-light .navbar-toggler-icon {
+        background-image: url('./../images/menu.svg') !important;
+    }
+    .navbar-light .navbar-collapse .navbar-nav .nav-item{
+        text-align: left;
+    }
+
+    .profile-section .profile-content .Grow-flower input,
+    .profile-section .btn.btn-success,
+    .profile-section .profile-content .custom-input input{
+        width: 100%;
+    }
+
+    
+    /* ---------------------- setup profile page end css ---------------------- */
+
+    /* ---------------------- Main Dashboard page start css --------------------- */
+    .content .header .navbar{
+
+    }
+    /* ---------------------- Main Dashboard page end css --------------------- */
+
+}
+
+@media screen and (min-width:576px) and (max-width:767.98px){
+
+    /* -------------------------- login page start css -------------------------- */
+    .overlay-background .form-logo img{
+        width: 100%;
+    }
+    .login .login-page-data,
+    .login .reset-page-data,
+    .login .register-page-data{
+        width: 45%;
+        margin: 30px auto;
+    }
+
+    /* -------------------------- login page end css -------------------------- */
+
+    /* ---------------------- setup profile page start css ---------------------- */
+
+    .header .container-fluid{
+        padding: 5px !important;
+    }
+
+    .navbar-light .navbar-toggler{
+        border-color: transparent !important;
+    }
+    .navbar-light .navbar-toggler-icon {
+        background-image: url('./../images/menu.svg') !important;
+    }
+    .profile-section .profile-content .Grow-flower input,
+    .profile-section .btn.btn-success,
+    .profile-section .profile-content .custom-input input{
+        width: 100%;
+    }
+    
+    /* ---------------------- setup profile page end css ---------------------- */
+
+
+    /* ---------------------- Main Dashboard page start css --------------------- */
+
+    /* ---------------------- Main Dashboard page end css --------------------- */
+    
+}
+
+@media screen and (min-width:768px) and (max-width:991.98px){
+    
+   /* -------------------------- login page start css -------------------------- */
+    .overlay-background .form-logo img{
+        width: 100%;
+    }
+    .login .login-page-data,
+    .login .reset-page-data,
+    .login .register-page-data{
+        width: 45%;
+        margin: 30px auto;
+    }
+
+    /* -------------------------- login page end css -------------------------- */
+
+    /* ---------------------- setup profile page start css ---------------------- */
+
+    .header .container-fluid{
+        padding: 5px !important;
+    }
+    .navbar-light .navbar-toggler{
+        border-color: transparent !important;
+    }
+    .profile-section .profile-content .Grow-flower input,
+    .profile-section .btn.btn-success,
+    .profile-section .profile-content .custom-input input{
+        width: 50%;
+    }
+    /* ---------------------- setup profile page end css ---------------------- */
+
+    /* ---------------------- Main Dashboard page start css --------------------- */
+
+    .dashboard-section.main-dashboard .select-comparment{
+        display: block;
+        margin: 0px auto 15px;
+    }
+    .content .dashboard-section{
+        padding: 48px 25px 0px
+    }
+    .dashboard-section .select-comparment .filter a.btn-primary{
+        margin: 10px auto;
+        width: 150px;
+    }
+    .content .nodata-found{
+        display: block;
+    }
+    
+    .content .nodata-found .found-img{
+        text-align:center;
+    }
+    .content .nodata-found img{
+        width: 75% !important;
+    }
+    
+    .subsrate-content .pagination-blog .extra-button{
+        display: none;
+    }
+    .subsrate-content .pagination-blog .Flowering-button .btn-primary,
+    .subsrate-content .pagination-blog .Flowering-button .btn-success{
+        padding: 8px;
+    }
+    .profile-section .profile-content{
+        padding: 0px 15px;
+    }
+    /* ---------------------- Main Dashboard page end css --------------------- */
+}
+
+@media screen and (min-width:992px) and (max-width:1199px){
+    /* -------------------------- login page start css -------------------------- */
+    .overlay-background .form-logo img{
+        width: 100%;
+    }
+
+    /* -------------------------- login page end css -------------------------- */
+
+    /* ---------------------- setup profile page start css ---------------------- */
+
+    
+    /* ---------------------- setup profile page end css ---------------------- */
+
+    /* ---------------------- Main Dashboard page start css --------------------- */
+
+    .main-dashboard .row .col-12{
+        flex: 0 0 50%;
+        max-width: 50%;
+    }
+
+    .dashboard-section .row .col-12 .dashboard-searchbox,
+    .dashboard-section .select-comparment,
+    .dashboard-section .select-comparment .batch-comparment{
+        display: block;
+    }
+    .dashboard-section .select-comparment .batch-comparment ul{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .select-comparment .nav .nav-item{
+        margin: 0px 5px 15px;
+    }
+
+    .dashboard-section .row .col-12 .custom-graph{
+        display: block !important;
+    }
+
+    .dashboard-section .row .col-12 .custom-graph .text-danger{
+        margin-top: 15px;
+    }
+    .dashboard-section .select-comparment .filter a.btn-primary{
+        width: 150px;
+    }
+
+    .select-comparment div.comparment-title{
+        margin-right: 15px !important;
+        margin-bottom: 15px !important;
+    }
+
+    .select-comparment h3.m-0{
+        margin-right: 15px !important;
+        margin-bottom: 15px !important;
+    }
+    .comparment-search{
+        margin-top: 15px;
+        width: 100% !important;
+    }
+
+    .content .nodata-found .found-img{
+        padding-left: 0px;
+    }
+    .content .nodata-found img{
+        width: 75% !important;
+    }
+    .content .nodata-found .found-text{
+        padding-left: 0;
+    }
+    .bath-section .subsrate-content .select-comparment,
+    .bath-section .subsrate-content .select-comparment .batch-comparment,
+    .bath-section .subsrate-content .select-comparment .batch-comparment #pills-tab{
+        display: block;
+    }
+
+    .bath-section .subsrate-content .select-comparment .batch-comparment #pills-tab li{
+        margin: 10px 0px;
+    }
+    .bath-section .subsrate-content .select-comparment .filter a.btn-primary{
+        width: 100%;
+    }
+    .subsrate-content .pagination-blog .extra-button{
+        display: none;
+    }
+    .subsrate-content .pagination-blog .Flowering-button .btn-primary,
+    .subsrate-content .pagination-blog .Flowering-button .btn-success{
+        padding: 8px;
+    }
+    .profile-section .profile-content{
+        padding: 0px 25px;
+    }
+    /* ---------------------- Main Dashboard page end css --------------------- */
+}
+
+@media screen and (min-width:1200px){
+    /* -------------------------- login page start css -------------------------- */
+    .overlay-background .form-logo img{
+        width: 100%;
+    }
+
+    /* -------------------------- login page end css -------------------------- */
+
+    /* ---------------------- setup profile page start css ---------------------- */
+
+    
+    /* ---------------------- setup profile page end css ---------------------- */
+
+    /* ---------------------- Main Dashboard page start css --------------------- */
+
+    /* ---------------------- Main Dashboard page end css --------------------- */
+}
+
+@media screen and (min-width:1201px) and (max-width:1629px){
+    .bath-section .subsrate-content .select-comparment.batch-filter{
+        display: block;
+    }
+    .bath-section .subsrate-content .select-comparment.batch-filter .filter a.btn-primary{
+        width: 130px;
+        margin: 10px 0px 0px;
+    }
+    .bath-section .subsrate-content .select-comparment.batch-filter .nav .nav-item{
+        margin: 10px 10px 0px;
+    }
+}
+
+.custom-table .container > table {
+    border: 2px solid #222;
+    border-radius: 3px;
+  }
+  .custom-table table {
+    border-spacing: 0;
+    border-collapse: collapse;
+    width: 100%;
+    text-align: center;
+    line-height: 150%;
+  }
+  .custom-table table th,
+  .custom-table table .expand {
+    color: #666666;
+    padding: 10px;
+    background-color: #F1C8EF;
+  }
+  .custom-table table th,
+  .custom-table table td {
+    width: 150px!important;
+  }
+  .custom-table table .expand {
+    cursor: pointer;
+    width: 20px!important;
+  }
+  .custom-table table table {
+    display: none;
+  }
+
